@@ -1,11 +1,8 @@
 var mymap = L.map('mapid').setView([53.9035, 27.5410], 11);
 
-L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 18,
-    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
-        '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-        'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-    id: 'mapbox.streets'
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(mymap);
 
 var pointsTextArea = document.getElementById('pointsTextArea');
@@ -38,9 +35,9 @@ for (var i = 0; i < polys.length; ++i )
 
 }
 
-// L.geoJSON(border, {
-//     color: 'red'
-// }).addTo(mymap);
+L.geoJSON(border, {
+    color: 'red'
+}).addTo(mymap);
 
 
 // navigator.geolocation.getCurrentPosition(function(location) {
