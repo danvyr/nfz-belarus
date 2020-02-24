@@ -15,11 +15,13 @@ for (var i = 0; i < circles.length; ++i )
     // console.log(zone.coordinates[0][0]);
     L.circle([circle.coordinates.lat, circle.coordinates.lng], 
         circle.radius*1000, {
-        color: 'red',
-        fillColor: '#f03',
+            color: 'FUCHSIA',
+            fillColor: '#FF00FF',
         fillOpacity: 0.5
-    }).addTo(mymap);
-    continue;
+        }).bindPopup('Номер зоны=' + circle.id).addTo(mymap);
+    // L.marker([circle.coordinates.lat, circle.coordinates.lng])
+    // .addTo(mymap)
+    // .bindPopup(circle.id);
 }
 
 
@@ -28,10 +30,10 @@ for (var i = 0; i < polys.length; ++i )
     var poly = polys[i];
 
     L.polygon(poly.coordinates, {
-        color: 'red',
-        fillColor: '#f03',
+        color: 'FUCHSIA',
+        fillColor: '#FF00FF',
         fillOpacity: 0.5
-    }).addTo(mymap);
+    }).bindPopup('Номер зоны=' + poly.id).addTo(mymap);
 
 }
 
