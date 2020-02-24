@@ -32039,7 +32039,7 @@ border = {
                 "name": "Погранзона РБ c Польшей"
             },
             "geometry": {
-                "type": "LineString",
+                "type": "MultiPolygon",
                 "coordinates": [
                     [
                         23.91645020000,
@@ -38546,7 +38546,7 @@ border = {
                 "name": "Погранзона РБ c Польшей"
             },
             "geometry": {
-                "type": "LineString",
+                "type": "MultiPolygon",
                 "coordinates": [
                     [
                         23.61204400000,
@@ -47109,7 +47109,7 @@ border = {
                 "name": "Погранзона РБ c Украиной"
             },
             "geometry": {
-                "type": "LineString",
+                "type": "MultiPolygon",
                 "coordinates": [
                     [
                         23.67150870000,
@@ -80805,7 +80805,7 @@ border = {
                 "name": "Погранзона РБ c Украиной"
             },
             "geometry": {
-                "type": "LineString",
+                "type": "MultiPolygon",
                 "coordinates": [
                     [
                         24.98047000000,

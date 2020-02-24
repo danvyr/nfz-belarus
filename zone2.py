@@ -3127,8 +3127,12 @@ circleArray = []
 for name in circles:
     data = circles[name]
     circleArray.append(data)
-    
 
+print('polyArray ' + str(len(polyArray)) )
+
+print('circleArray ' + str(len(circleArray)) )
+    
+print (len(circleArray) + len(polyArray))
 
 with open('circles.json', 'w') as z:
     json.dump(circleArray, z)
