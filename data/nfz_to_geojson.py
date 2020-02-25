@@ -30,28 +30,22 @@ def convert():
 
             coordianates = re.sub('N', '', coordianates)
             coordianates = re.sub('E', '', coordianates)
-            #print(str(id) + ' ' + str(coordianates) + ' ' + str(radius))
+            tempArray = re.findall("\d+\.\d+", coordianates) 
 
-
-            coordianatesArray = []
-            tempArray = re.findall("\d+\.\d+", coordianates)
-            
             j = {}
-            j['id'] = id
+            j['id'] = id            
             
-            tempC = []
             if radius > 0: 
                 tempC = {}
                 tempC['lat'] = float(tempArray[0])
                 tempC['lng'] = float(tempArray[1])
-                #coordianatesArray.append(tempC)
                 j['radius'] = radius
                 j['coordinates'] = tempC
-
                 circleArray.append(j)
             else:
                 i = 0
-                while i < len(tempArray):                
+                coordianatesArray = [] 
+                while i < len(tempArray):                                   
                     coordianatesArray.append(
                         makeArray(tempArray[i], tempArray[i+1]))
                     i+=2
