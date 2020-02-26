@@ -60,6 +60,17 @@ for (var i = 0; i < polysDanger.length; ++i )
         fillOpacity: 0.5
     }).bindPopup('Номер зоны=' + poly.id).addTo(mymap);
 }
+
+
+for (var i = 0; i < polysForbiddenAero.length; ++i) {
+    var poly = polysForbiddenAero[i];
+    L.polygon(poly.coordinates, {
+        color: 'red',
+        fillColor: '#FF0000',
+        fillOpacity: 0.5
+    }).bindPopup('Номер зоны=' + poly.id).addTo(mymap);
+}
+
 for (var i = 0; i < polysForbidden.length; ++i )
 {   
     var poly = polysForbidden[i];

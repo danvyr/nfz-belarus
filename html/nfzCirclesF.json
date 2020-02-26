@@ -4,7 +4,7 @@ circlesForbidden = [
     {"id": 1003, "radius": 1, "coordinates": {"lat": 53.8987, "lng": 27.5618}},
     {"id": 1004, "radius": 1.5, "coordinates": {"lat": 54.0793, "lng": 27.6871}},
     {"id": 1005, "radius": 2.5, "coordinates": {"lat": 54.2995, "lng": 29.2370}},
-    {"id": 1006, "radius": 19, "coordinates": {"lat": 55.6016, "lng": 26.5742}}]
+    {"id": 1006, "radius": 10, "coordinates": {"lat": 55.6016, "lng": 26.5742}}]
 
 circlesDanger = [
     {"id": 2001, "radius": 1.5, "coordinates": {"lat": 54.5527, "lng": 26.2874}},
@@ -33,10 +33,19 @@ circlesDanger = [
     {"id": 2021, "radius": 0.5, "coordinates": {"lat": 54.5007, "lng": 30.2001}},
     {"id": 2022, "radius": 5, "coordinates": {"lat": 54.9331, "lng": 28.9194}},
     {"id": 2023, "radius": 2, "coordinates": {"lat": 54.6003, "lng": 26.3857}},
-    {"id": 2024, "radius": 2, "coordinates": {"lat": 55.1299, "lng": 26.8859}},
+    {"id": 2024, "radius": 0.5, "coordinates": {"lat": 55.1299, "lng": 26.8859}},
     
-    {"id": 2025, "radius": 2, "coordinates": {"lat": 55.1494, "lng": 27.5006}},
+    {"id": 2025, "radius": 0.5, "coordinates": {"lat": 55.1494, "lng": 27.5006}},
     {"id": 2026, "radius": 1, "coordinates": {"lat": 55.7627, "lng": 27.9311}},
     {"id": 2027, "radius": 4, "coordinates": {"lat": 55.5436, "lng": 28.8010}},
-    {"id": 2028, "radius": 3, "coordinates": {"lat": 55.6144, "lng": 28.5596}}
+    {"id": 2028, "radius": 3, "coordinates": {"lat": 55.6144, "lng": 28.5596}},
+    {"id": 2029, "radius": 4, "coordinates": {"lat": 53.0327, "lng": 25.442}},
+    {"id": 2030, "radius": 0.5, "coordinates": {"lat": 53.0278, "lng": 26.1345}},
+    {"id": 2031, "radius": 0.5, "coordinates": {"lat": 52.3492, "lng": 23.2550}},
+    {"id": 2032, "radius": 1, "coordinates": {"lat": 52.1897, "lng": 25.8440}},
+    {"id": 2033, "radius": 2.5, "coordinates": {"lat": 53.7827, "lng": 27.6807}}
+
+
+
+
 ]
