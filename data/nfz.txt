@@ -1,0 +1,99 @@
+зоны запретные, опасные и запретные для авиамоделей
+
+
+___ЗАПРЕТНЫЕ
+https://www.openstreetmap.org/?mlat=53.6667&mlon=23.8946#map=13/53.6667/23.8946 гродно АЗОТ больше 206 круга в два раза, больше 18 чуть чуть.
+https://www.openstreetmap.org/?mlat=52.6475&mlon=23.9298#map=16/52.6475/23.9298 больше 190 в 3 раза
+https://www.openstreetmap.org/?mlat=53.8987&mlon=27.5618#map=15/53.8987/27.5618 равно 110
+https://www.openstreetmap.org/?mlat=54.0793&mlon=27.6871#map=14/54.0793/27.6871 равно 14
+https://www.openstreetmap.org/?mlat=54.2995&mlon=29.2370#map=12/54.2995/29.2370 чуть больше 123
+https://www.openstreetmap.org/?mlat=55.6016&mlon=26.5742#map=12/55.6016/26.5742 большой центр в литве 19км диаметр
+
+
+___ОПАСНЫЕ:
+https://www.openstreetmap.org/?mlat=54.5527&mlon=26.2874#map=13/54.5527/26.2874 больше 96 в 1,5
+https://www.openstreetmap.org/?mlat=53.6339&mlon=23.6381#map=15/53.6339/23.6381 месторождение Беляны-2, радиус как у 250
+https://www.openstreetmap.org/?mlat=52.6319&mlon=23.8153#map=14/52.6319/23.8153 меньше 190 в 2 раза
+https://www.openstreetmap.org/?mlat=52.3427&mlon=23.2371#map=13/52.3427/23.2371 равно 190
+https://www.openstreetmap.org/?mlat=51.9117&mlon=23.6344#map=14/51.9117/23.6344 равно 190
+https://www.openstreetmap.org/?mlat=52.8437&mlon=25.3784#map=13/52.8437/25.3784 равен 232
+
+https://www.openstreetmap.org/?mlat=53.0317&mlon=28.2266#map=11/53.0317/28.2266 старые дороги болоше 7 в 1,25
+https://www.openstreetmap.org/?mlat=53.1398&mlon=29.1151#map=11/53.1398/29.1151 меньше 6 в 1,2
+https://www.openstreetmap.org/?mlat=53.5203&mlon=28.2204#map=12/53.5203/28.2204 чуть больше 87
+https://www.openstreetmap.org/?mlat=54.6009&mlon=26.3862#map=13/54.6009/26.3862 меньше 87 в 2 раза
+https://www.openstreetmap.org/?mlat=53.9823&mlon=27.7237#map=12/53.9823/27.7237 чуть больше 87
+https://www.openstreetmap.org/?mlat=53.9532&mlon=27.2282#map=13/53.9532/27.2282 равно 14
+
+https://www.openstreetmap.org/?mlat=54.1332&mlon=27.7715#map=14/54.1332/27.7715 чуть меньше 255
+https://www.openstreetmap.org/?mlat=54.0338&mlon=27.7722#map=13/54.0338/27.7722 чуть меньше 255
+https://www.openstreetmap.org/?mlat=54.1317&mlon=27.7713#map=14/54.1317/27.7713 чуть меньше 255
+https://www.openstreetmap.org/?mlat=53.9322&mlon=30.2539#map=12/53.9322/30.2539 в 2 раза меньше 255
+https://www.openstreetmap.org/?mlat=54.1859&mlon=30.2651#map=14/54.1859/30.2651 меньше 254 в 1,5 раза
+https://www.openstreetmap.org/?mlat=52.3766&mlon=30.3169#map=15/52.3766/30.3169 меньше 163 в 1,5 раза
+
+https://www.openstreetmap.org/?mlat=52.4046&mlon=30.6606#map=15/52.4046/30.6606 меньше 163 в 1,5 раза
+https://www.openstreetmap.org/?mlat=52.4227&mlon=30.8861#map=15/52.4227/30.8861 меньше 163 в 1,5 раза
+https://www.openstreetmap.org/?mlat=54.5007&mlon=30.2001#map=14/54.5007/30.2001 меньше 243 в 1,5-2 раза
+https://www.openstreetmap.org/?mlat=54.9331&mlon=28.9194#map=12/54.9331/28.9194 больше 2 в 2 раза
+https://www.openstreetmap.org/?mlat=54.6003&mlon=26.3857#map=13/54.6003/26.3857 меньше 96 в 2 раза 
+https://www.openstreetmap.org/?mlat=55.1299&mlon=26.8859#map=15/55.1299/26.8859 меньше 97 в 2 раза
+
+https://www.openstreetmap.org/?mlat=55.1494&mlon=27.5006#map=14/55.1494/27.5006 меньше 97 в 2 раза
+https://www.openstreetmap.org/?mlat=55.7627&mlon=27.9311#map=14/55.7627/27.9311 равно 95
+https://www.openstreetmap.org/?mlat=55.5436&mlon=28.8010#map=12/55.5436/28.8010 равен 120
+https://www.openstreetmap.org/?mlat=55.6144&mlon=28.5596#map=12/55.6144/28.5596 меньше 120 в 1,5
+
+
+___ОПАСНЫЕ
+полигон Гожский военно-тренировочный полигон
+https://www.openstreetmap.org/?mlat=53.8304&mlon=23.9045#map=12/53.8304/23.9045
+https://www.openstreetmap.org/?mlat=53.8564&mlon=24.1081#map=12/53.8564/24.1081
+https://www.openstreetmap.org/?mlat=53.9347&mlon=24.0827#map=12/53.9347/24.0827
+https://www.openstreetmap.org/?mlat=53.9199&mlon=23.9341#map=12/53.9199/23.9341
+https://www.openstreetmap.org/?mlat=53.8304&mlon=23.9045#map=12/53.8304/23.9045
+
+
+https://www.openstreetmap.org/?mlat=52.0210&mlon=23.7305#map=12/52.0210/23.7305
+https://www.openstreetmap.org/?mlat=51.8805&mlon=23.7820#map=12/51.8805/23.7820
+https://www.openstreetmap.org/?mlat=51.8680&mlon=23.9008#map=12/51.8680/23.9008
+https://www.openstreetmap.org/?mlat=52.0193&mlon=23.8005#map=12/52.0193/23.8005
+https://www.openstreetmap.org/?mlat=52.0210&mlon=23.7305#map=12/52.0210/23.7305
+
+
+https://www.openstreetmap.org/?mlat=53.2818&mlon=28.5366#map=12/53.2818/28.5366
+https://www.openstreetmap.org/?mlat=53.2328&mlon=28.3372#map=11/53.2328/28.3372
+https://www.openstreetmap.org/?mlat=53.3169&mlon=28.2623#map=10/53.3169/28.2623
+https://www.openstreetmap.org/?mlat=53.3497&mlon=28.3509#map=11/53.3497/28.3509
+https://www.openstreetmap.org/?mlat=53.2968&mlon=28.5377#map=11/53.2968/28.5377
+https://www.openstreetmap.org/?mlat=53.2818&mlon=28.5366#map=12/53.2818/28.5366
+
+борисовский полигон
+https://www.openstreetmap.org/?mlat=54.1496&mlon=28.3976#map=12/54.1496/28.3976
+https://www.openstreetmap.org/?mlat=54.1657&mlon=28.1350#map=12/54.1657/28.1350
+https://www.openstreetmap.org/?mlat=54.2495&mlon=28.2170#map=14/54.2495/28.2170
+https://www.openstreetmap.org/?mlat=54.2665&mlon=28.4831#map=13/54.2665/28.4831
+https://www.openstreetmap.org/?mlat=54.1972&mlon=28.4686#map=16/54.1972/28.4686
+https://www.openstreetmap.org/?mlat=54.1496&mlon=28.3976#map=12/54.1496/28.3976
+
+___ЗАПРЕТНЫЕ
+дрозды
+https://www.openstreetmap.org/?mlat=53.9292&mlon=27.5144#map=15/53.9292/27.5144
+https://www.openstreetmap.org/?mlat=53.9437&mlon=27.4359#map=14/53.9437/27.4359
+https://www.openstreetmap.org/?mlat=53.9760&mlon=27.4128#map=13/53.9760/27.4128
+https://www.openstreetmap.org/?mlat=54.0015&mlon=27.4505#map=13/54.0015/27.4505
+https://www.openstreetmap.org/?mlat=53.9763&mlon=27.5108#map=12/53.9763/27.5108
+https://www.openstreetmap.org/?mlat=53.9498&mlon=27.5383#map=12/27.5108/27.5383
+
+
+___запрет для дронов
+возле островца - гудогай
+https://www.openstreetmap.org/?mlat=54.6072&mlon=25.9325#map=13/54.6072/25.9325
+https://www.openstreetmap.org/?mlat=54.5746&mlon=25.9368#map=13/54.5746/25.9368
+https://www.openstreetmap.org/?mlat=54.5820&mlon=25.8041#map=12/54.5820/25.8041
+https://www.openstreetmap.org/?mlat=54.6087&mlon=25.7997#map=12/54.6087/25.7997
+https://www.openstreetmap.org/?mlat=54.6072&mlon=25.9325#map=13/54.6072/25.9325
+
+перевод
+в запретную зону [1, 2, 3, 4, 5, 6, 7,118, 164]
+в опасную зоны 43, 41(оставить и в запретных для дрона), 49 [41,43, 49]

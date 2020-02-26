@@ -1,0 +1,42 @@
+circlesForbidden = [
+    {"id": 1001, "radius": 2, "coordinates": {"lat": 53.6667, "lng": 23.8946}},
+    {"id": 1002, "radius": 3, "coordinates": {"lat": 52.6475, "lng": 23.9298}},
+    {"id": 1003, "radius": 1, "coordinates": {"lat": 53.8987, "lng": 27.5618}},
+    {"id": 1004, "radius": 1.5, "coordinates": {"lat": 54.0793, "lng": 27.6871}},
+    {"id": 1005, "radius": 2.5, "coordinates": {"lat": 54.2995, "lng": 29.2370}},
+    {"id": 1006, "radius": 19, "coordinates": {"lat": 55.6016, "lng": 26.5742}}]
+
+circlesDanger = [
+    {"id": 2001, "radius": 1.5, "coordinates": {"lat": 54.5527, "lng": 26.2874}},
+    {"id": 2002, "radius": 0.5, "coordinates": {"lat": 53.6339, "lng": 23.6381}},
+    {"id": 2003, "radius": 0.5, "coordinates": {"lat": 52.6319, "lng": 23.8153}},
+    {"id": 2004, "radius": 1, "coordinates": {"lat": 52.3427, "lng": 27.6871}},
+    {"id": 2005, "radius": 1, "coordinates": {"lat": 51.9117, "lng": 23.6344}},
+    {"id": 2006, "radius": 1, "coordinates": {"lat": 52.8437, "lng": 25.3784}},
+
+    {"id": 2007, "radius": 4.5, "coordinates": {"lat": 53.0317, "lng": 28.2266}},
+    {"id": 2008, "radius": 2, "coordinates": {"lat": 53.1398, "lng": 29.1151}},
+    {"id": 2009, "radius": 4, "coordinates": {"lat": 53.5203, "lng": 28.2204}},
+    {"id": 2010, "radius": 2, "coordinates": {"lat": 54.6009, "lng": 26.3862}},
+    {"id": 2011, "radius": 4, "coordinates": {"lat": 53.9823, "lng": 27.7237}},
+    {"id": 2012, "radius": 1.5, "coordinates": {"lat": 53.9532, "lng": 27.2282}},
+    
+    {"id": 2013, "radius": 0.5, "coordinates": {"lat": 54.1332, "lng": 27.7715}},
+    {"id": 2014, "radius": 0.5, "coordinates": {"lat": 54.0338, "lng": 27.7722}},
+    {"id": 2015, "radius": 0.5, "coordinates": {"lat": 54.1317, "lng": 27.7713}},
+    {"id": 2016, "radius": 0.3, "coordinates": {"lat": 53.9322, "lng": 30.2539}},
+    {"id": 2017, "radius": 0.5, "coordinates": {"lat":54.1859, "lng": 30.2651}},
+    {"id": 2018, "radius": 0.5, "coordinates": {"lat": 52.3766, "lng": 30.3169}},
+    
+    {"id": 2019, "radius": 0.5, "coordinates": {"lat": 52.4046, "lng": 30.6606}},
+    {"id": 2020, "radius": 0.5, "coordinates": {"lat": 52.4227, "lng": 30.8861}},
+    {"id": 2021, "radius": 0.5, "coordinates": {"lat": 54.5007, "lng": 30.2001}},
+    {"id": 2022, "radius": 5, "coordinates": {"lat": 54.9331, "lng": 28.9194}},
+    {"id": 2023, "radius": 2, "coordinates": {"lat": 54.6003, "lng": 26.3857}},
+    {"id": 2024, "radius": 2, "coordinates": {"lat": 55.1299, "lng": 26.8859}},
+    
+    {"id": 2025, "radius": 2, "coordinates": {"lat": 55.1494, "lng": 27.5006}},
+    {"id": 2026, "radius": 1, "coordinates": {"lat": 55.7627, "lng": 27.9311}},
+    {"id": 2027, "radius": 4, "coordinates": {"lat": 55.5436, "lng": 28.8010}},
+    {"id": 2028, "radius": 3, "coordinates": {"lat": 55.6144, "lng": 28.5596}}
+]
