@@ -1,10 +1,12 @@
 circlesForbidden = [
     {"id": 1001, "radius": 2, "coordinates": {"lat": 53.6667, "lng": 23.8946}},
     {"id": 1002, "radius": 3, "coordinates": {"lat": 52.6475, "lng": 23.9298}},
-    {"id": 1003, "radius": 1, "coordinates": {"lat": 53.8987, "lng": 27.5618}},
+    {"id": 1003, "radius": 1, "coordinates": {"lat": 53.9002, "lng": 27.5626}},
     {"id": 1004, "radius": 1.5, "coordinates": {"lat": 54.0793, "lng": 27.6871}},
     {"id": 1005, "radius": 2.5, "coordinates": {"lat": 54.2995, "lng": 29.2370}},
-    {"id": 1006, "radius": 10, "coordinates": {"lat": 55.6016, "lng": 26.5742}}]
+    {"id": 1006, "radius": 10, "coordinates": {"lat": 55.6016, "lng": 26.5742 }},
+    {"id": 1007, "radius": 2.5, "coordinates": {"lat": 53.7864, "lng": 27.6854}}
+]
 
 circlesDanger = [
     {"id": 2001, "radius": 1.5, "coordinates": {"lat": 54.5527, "lng": 26.2874}},
@@ -43,9 +45,5 @@ circlesDanger = [
     {"id": 2030, "radius": 0.5, "coordinates": {"lat": 53.0278, "lng": 26.1345}},
     {"id": 2031, "radius": 0.5, "coordinates": {"lat": 52.3492, "lng": 23.2550}},
     {"id": 2032, "radius": 1, "coordinates": {"lat": 52.1897, "lng": 25.8440}},
-    {"id": 2033, "radius": 2.5, "coordinates": {"lat": 53.7827, "lng": 27.6807}}
-
-
-
 
 ]
