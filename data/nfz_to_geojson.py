@@ -18,7 +18,7 @@ def convert():
     circleArray = []
     polyArray = []
 
-    with open('nfz.csv') as nfzFile:
+    with open('nfz_v2.csv') as nfzFile:
         nfzCSV = csv.reader(nfzFile, delimiter=',')
 
         for row in nfzCSV:
@@ -30,12 +30,12 @@ def convert():
 
             coordianates = re.sub('N', '', coordianates)
             coordianates = re.sub('E', '', coordianates)
-            tempArray = re.findall("\d+\.\d+", coordianates) 
+            tempArray = re.findall("\d+\.\d+", coordianates)
 
             j = {}
-            j['id'] = id            
-            
-            if radius > 0: 
+            j['id'] = id
+
+            if radius > 0:
                 tempC = {}
                 tempC['lat'] = float(tempArray[0])
                 tempC['lng'] = float(tempArray[1])
@@ -44,8 +44,8 @@ def convert():
                 circleArray.append(j)
             else:
                 i = 0
-                coordianatesArray = [] 
-                while i < len(tempArray):                                   
+                coordianatesArray = []
+                while i < len(tempArray):
                     coordianatesArray.append(
                         makeArray(tempArray[i], tempArray[i+1]))
                     i+=2
@@ -53,12 +53,12 @@ def convert():
                 polyArray.append(j)                
 
 
-        with open('nfzCircle.json', 'w') as outfile:
+        with open('../html/nfzCircle.json', 'w') as outfile:
             outfile.write("circles = ")
             # .encode('utf8')
             json.dump(circleArray, outfile, ensure_ascii=False)
 
-        with open('nfzPoly.json', 'w') as outfile:
+        with open('../html/nfzPoly.json', 'w') as outfile:
             outfile.write("polys = ")
             # .encode('utf8')
             json.dump(polyArray, outfile, ensure_ascii=False)
