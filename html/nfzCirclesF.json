@@ -5,7 +5,15 @@ circlesForbidden = [
     {"id": 1004, "radius": 1.5, "coordinates": {"lat": 54.0793, "lng": 27.6871}},
     {"id": 1005, "radius": 2.5, "coordinates": {"lat": 54.2995, "lng": 29.2370}},
     {"id": 1006, "radius": 10, "coordinates": {"lat": 55.6016, "lng": 26.5742 }},
-    {"id": 1007, "radius": 2.5, "coordinates": {"lat": 53.7864, "lng": 27.6854}}
+    {"id": 1007, "radius": 2.5, "coordinates": {"lat": 53.7864, "lng": 27.6854}},
+    {"id": 1008, "radius": 2.5, "coordinates": {"lat": 52.45703889, "lng": 31.54295278}},
+    {"id": 1009, "radius": 3.0, "coordinates": {"lat": 52.328333, "lng": 30.371666}},
+    {"id": 1010, "radius": 3.0, "coordinates": {"lat": 52.4034, "lng": 30.7501}},
+    {"id": 1011, "radius": 2.5, "coordinates": {"lat": 52.61331944, "lng": 25.07544167}},
+    {"id": 1011, "radius": 6, "coordinates": {"lat": 54.7581, "lng": 26.0920}},
+    {"id": 1012, "radius": 2.5, "coordinates": {"lat": 54.681666, "lng": 28.501388}},
+    {"id": 1013, "radius": 2.0, "coordinates": {"lat": 53.3125, "lng": 28.7975}}, 
+    {"id": 1014, "radius": 3.0, "coordinates": {"lat": 53.171388, "lng": 27.628333}},
 ]
 
 circlesDanger = [
@@ -38,12 +46,19 @@ circlesDanger = [
     {"id": 2024, "radius": 0.5, "coordinates": {"lat": 55.1299, "lng": 26.8859}},
     
     {"id": 2025, "radius": 0.5, "coordinates": {"lat": 55.1494, "lng": 27.5006}},
-    {"id": 2026, "radius": 1, "coordinates": {"lat": 55.7627, "lng": 27.9311}},
+    {"id": 2026, "radius": 0.5, "coordinates": {"lat": 55.7627, "lng": 27.9311}},
     {"id": 2027, "radius": 4, "coordinates": {"lat": 55.5436, "lng": 28.8010}},
     {"id": 2028, "radius": 3, "coordinates": {"lat": 55.6144, "lng": 28.5596}},
     {"id": 2029, "radius": 4, "coordinates": {"lat": 53.0327, "lng": 25.442}},
     {"id": 2030, "radius": 0.5, "coordinates": {"lat": 53.0278, "lng": 26.1345}},
     {"id": 2031, "radius": 0.5, "coordinates": {"lat": 52.3492, "lng": 23.2550}},
     {"id": 2032, "radius": 1, "coordinates": {"lat": 52.1897, "lng": 25.8440}},
+
+    {"id": 2033, "radius": 5, "coordinates": {"lat": 55.516666, "lng": 29.948055}},
+    {"id": 2034, "radius": 0.5, "coordinates": {"lat": 55.4089, "lng": 28.5614}},
+    {"id": 2035, "radius": 0.5, "coordinates": {"lat": 53.8224, "lng": 31.0069}},
+    {"id": 2036, "radius": 0.5, "coordinates": {"lat": 52.1268, "lng": 29.2922}},
+    {"id": 2037, "radius": 0.5, "coordinates": {"lat": 52.0812, "lng": 29.0901}},
+    {"id": 2038, "radius": 5, "coordinates": {"lat": 52.2192, "lng": 27.4414}},
 
 ]

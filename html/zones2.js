@@ -36,7 +36,6 @@ var pointsTextArea = document.getElementById('pointsTextArea');
 var zakon = L.layerGroup()
 var kadasrDanger = L.layerGroup()
 var kadasrForbidden = L.layerGroup()
-var kadasrForbiddenAero = L.layerGroup()
 
 
 borderItem = L.geoJSON(border, {
@@ -114,32 +113,18 @@ for (var i = 0; i < polysForbidden.length; ++i) {
 
 
 
-for (var i = 0; i < polysForbiddenAero.length; ++i) {
-    var poly = polysForbiddenAero[i];
-    p = L.polygon(poly.coordinates, {
-        color: '#0000FF',
-        fillColor: '#0000FF',
-        fillOpacity: 0.5
-    }).bindPopup('Номер зоны=' + poly.id);
-    kadasrForbiddenAero.addLayer(p);
-}
-
-
-
 
 
 mymap.addLayer(zakon);
 mymap.addLayer(kadasrDanger);
 mymap.addLayer(kadasrForbidden);
 mymap.addLayer(borderLayer);
-mymap.addLayer(kadasrForbiddenAero);
 
 var overlayMaps = {
     "Запретные зоны из закона": zakon,
     "Приграничная территория": borderLayer,
     "Опасные зоны из кадастра ": kadasrDanger,
     "Запретные зоны из кадастра": kadasrForbidden,
-    "Запретные зоны для полёта из кадастра": kadasrForbiddenAero,
 };
 
 
