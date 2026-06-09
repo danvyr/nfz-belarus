@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	
-	<title>Belarus NFZ - No Flight Zones / Зоны запретные для полёта в Беларуси</title>
+	<title>Belarus No-Flight Zones</title>
 
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,8 +10,8 @@
 
 	<!--<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />-->
 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
-    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
     <style>
         body {
@@ -21,6 +21,32 @@
         html, body, #mapid {
             height: 100%;
             width: 100%;
+        }
+        .language-control {
+            display: flex;
+            overflow: hidden;
+            background: #fff;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
+        }
+        .language-control button {
+            padding: 7px 9px;
+            border: 0;
+            border-right: 1px solid #ccc;
+            background: #fff;
+            color: #333;
+            font: bold 12px/1.2 Arial, sans-serif;
+            cursor: pointer;
+        }
+        .language-control button:last-child {
+            border-right: 0;
+        }
+        .language-control button:hover {
+            background: #f4f4f4;
+        }
+        .language-control button.active {
+            background: #2b7bba;
+            color: #fff;
         }
     </style>
 	<!-- Load Google Material Icons -->
@@ -39,6 +65,7 @@
 <script type='text/javascript' src='nfzPoly.json'></script>
 <script type='text/javascript' src='nfzPolyF.json'></script>
 <script type='text/javascript' src='nfzCirclesF.json'></script>
+<script type='text/javascript' src='geojson/zones2020-data.js'></script>
 <script type='text/javascript' src='zones2.js'></script>
 
 </body>

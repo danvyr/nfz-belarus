@@ -1,0 +1,54 @@
+{
+  "type": "FeatureCollection",
+  "name": "измененная позиция приложения 5",
+  "source": "Постановление Министерства обороны Республики Беларусь 20.01.2025 № 1",
+  "source_pdf": "W22543087_1743195600.pdf",
+  "circle_approximation_segments": 72,
+  "bbox": [
+    25.6813889,
+    52.8330556,
+    26.2647222,
+    53.1497222
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "id": "appendix-5-00002",
+      "properties": {
+        "designation": "00002",
+        "category": "amended_appendix_5_zone",
+        "category_ru": "измененная позиция приложения 5",
+        "source_appendix": 5,
+        "source_shape": "polygon",
+        "partial_appendix_extract": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.1313889,
+              53.1497222
+            ],
+            [
+              25.6813889,
+              52.8997222
+            ],
+            [
+              25.7647222,
+              52.8330556
+            ],
+            [
+              26.2647222,
+              53.0830556
+            ],
+            [
+              26.1313889,
+              53.1497222
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
