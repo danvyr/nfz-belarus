@@ -113,6 +113,7 @@ function detectLanguage() {
 }
 
 var currentLanguage = detectLanguage();
+var seoTitle = "Belarus No-Flight Zones | Бесполетные зоны | Беспалётныя зоны";
 
 function t(key) {
     return translations[currentLanguage][key] || translations.en[key] || key;
@@ -421,7 +422,7 @@ function setLanguage(language) {
     }
     currentLanguage = language;
     document.documentElement.lang = language;
-    document.title = t("title");
+    document.title = seoTitle;
     if (mymap.zoomControl) {
         mymap.zoomControl._zoomInButton.title = t("zoomIn");
         mymap.zoomControl._zoomOutButton.title = t("zoomOut");

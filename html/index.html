@@ -2,19 +2,41 @@
 <html lang="en">
 <head>
 	
-	<title>Belarus No-Flight Zones</title>
+	<title>Belarus No-Flight Zones | Бесполетные зоны | Беспалётныя зоны</title>
 
 	<meta charset="utf-8" />
-	<meta name="description" content="Interactive map of no-flight zones, drone restrictions, aerodrome areas and restricted airspace in Belarus. Интерактивная карта бесполетных зон, ограничений для дронов и воздушного пространства Беларуси.">
-	<meta name="keywords" content="Belarus no-flight zones, Belarus drone map, Belarus restricted airspace, Belarus aviation zones, drone restrictions Belarus, NFZ Belarus, бесполетные зоны Беларуси, карта запретных зон Беларуси, ограничения для дронов Беларусь, воздушное пространство Беларуси, авиационные зоны Беларуси, БПЛА Беларусь">
+	<meta name="description" content="Interactive Belarus no-flight zone and drone restriction map. Карта бесполетных зон Беларуси. Інтэрактыўная карта беспалётных зон Беларусі.">
+	<meta name="keywords" content="Belarus no-flight zones, Belarus drone map, Belarus restricted airspace, Belarus aviation zones, drone restrictions Belarus, NFZ Belarus, бесполетные зоны Беларуси, карта запретных зон Беларуси, ограничения для дронов Беларусь, воздушное пространство Беларуси, авиационные зоны Беларуси, БПЛА Беларусь, беспалётныя зоны Беларусі, карта забароненых зон Беларусі, абмежаванні для дронаў Беларусь">
 	<meta name="robots" content="index, follow">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#d7191c">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Belarus No-Flight Zones | Бесполетные зоны | Беспалётныя зоны">
+	<meta property="og:description" content="Interactive map of no-flight zones, drone restrictions and restricted airspace in Belarus.">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:locale:alternate" content="ru_RU">
+	<meta property="og:locale:alternate" content="be_BY">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
 	<link rel="icon" href="favicon.ico" sizes="any">
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="512x512" href="favicon.png">
 	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "WebApplication",
+		"name": "Belarus No-Flight Zones",
+		"alternateName": [
+			"Бесполетные зоны Беларуси",
+			"Беспалётныя зоны Беларусі"
+		],
+		"description": "Interactive map of no-flight zones, drone restrictions and restricted airspace in Belarus.",
+		"applicationCategory": "MapApplication",
+		"operatingSystem": "Any",
+		"inLanguage": ["en", "ru", "be"]
+	}
+	</script>
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
@@ -27,6 +49,17 @@
         html, body, #mapid {
             height: 100%;
             width: 100%;
+        }
+        .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
         }
         .language-control {
             display: flex;
@@ -61,7 +94,7 @@
 </head>
 <body>
 
-
+<h1 class="visually-hidden">Belarus No-Flight Zones | Бесполетные зоны Беларуси | Беспалётныя зоны Беларусі</h1>
 
 <div id="mapid"></div>
 
