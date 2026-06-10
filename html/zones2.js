@@ -170,7 +170,8 @@ var zones2020 = [
     {
         dataKey: "aerohub_area",
         color: "#006d77",
-        fillOpacity: 0.08
+        fillOpacity: 0.08,
+        enabledByDefault: false
     },
     {
         dataKey: "drone_prohibited",
@@ -276,7 +277,9 @@ mymap.addLayer(borderLayer);
 
 for (var zoneIndex = 0; zoneIndex < zones2020.length; ++zoneIndex) {
     var zone2020 = zones2020[zoneIndex];
-    mymap.addLayer(zone2020.layer);
+    if (zone2020.enabledByDefault !== false) {
+        mymap.addLayer(zone2020.layer);
+    }
 }
 
 function escapeHtml(value) {
