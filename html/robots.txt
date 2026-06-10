@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://danvyr.github.io/nfz-belarus/html/sitemap.xml
